@@ -21,3 +21,7 @@
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 element = 3
 print(list.index(element))
+
+list = [1, 'two', 3, 4, 5, 6, 7, 8, 9, 10]
+element = 'two'
+print(list.index(element))
