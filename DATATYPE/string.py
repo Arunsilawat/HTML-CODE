@@ -17,4 +17,9 @@ a="123"
 b="abc"
 print(a.join(b))
 
+str="Python is a programming language"
+print(str.split(" "))
+print(str.split(" "),1)
+print(str.split(" ",0))
+print(str.split(" ",2))
 
