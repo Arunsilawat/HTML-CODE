@@ -32,4 +32,11 @@ a.sort()          #soet--------->asenting order me karega
 print(a)
 a.sort(reverse=True)  #-------->reverse bhi sath me karega
 print(a)
- 
+# ---------------------------------------------------------------------------------------------------
+c=[12,2,3,4,5]
+d=[6,5,4,33,2]
+c.append(d)
+print(c)
+
+c.extend(d)
+print(c)
