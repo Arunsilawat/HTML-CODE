@@ -33,4 +33,11 @@ print(my_dict.items())
 print(my_dict.get('4','Arun'))  #get------>defoult value set karte hai
 print(my_dict)
 my_dict.pop('name')
+# print(my_dict.pop('name'))
+print(my_dict)
+
+my_dict.clear()
+print(my_dict)
+
+del my_dict
 print(my_dict)
