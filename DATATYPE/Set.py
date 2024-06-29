@@ -22,11 +22,11 @@ print(my_set)
 s1={10,20,30}
 s2={40,20,60}
 
-s3=s1.intersection(s2)   #same value nhi hogi to set() dikhega
+s3=s1.intersection(s2)   #same value nhi hogi to set() dikhega   comman
 print(s3)
 
-s4=s1.union(s2) 
+s4=s1.union(s2)       #add krta hai
 print(s4)
 
-s5=s2.difference(s1) 
+s5=s2.difference(s1)  #diffrence
 print(s5)
