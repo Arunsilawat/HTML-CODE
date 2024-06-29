@@ -32,3 +32,7 @@ print(lsize)
 print(tsize)
 print(ssize)
 print(dsize)
+
+import keyword
+list=keyword.kwlist
+print(list)
