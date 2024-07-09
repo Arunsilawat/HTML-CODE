@@ -32,3 +32,8 @@ print(x)
 y=add(5,6,7,8)
 print(y)
 # ** kw aruments--------------
+def studetail(**n):
+    print(n)
+    for k,v in n.items():
+        print(k,"=",v)
+studetail(n1=10,n2=20,n3=30)
