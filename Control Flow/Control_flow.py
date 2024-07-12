@@ -1,6 +1,6 @@
 #1Sequantial  --> line by line
 #2->Condition --> if if else,if elif,if elif elif.
-#3->transfar  --> Comtinuew,pass,breack
+#3->transfar  --> Comtinuew,pass,break
 #4->iteretive --> for,while
 #-------------------if--------------------------
 # n=int(input("Enter your age"))
@@ -111,3 +111,6 @@ while i<=n:
          
      n=n-1
 print(multi)
+
+
+
