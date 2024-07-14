@@ -72,3 +72,22 @@ print(num)
 x={10,20,30,40,40}
 y={30,40,50,60}
 print(x.union(y))
+
+num=int(input("Enter any no: "))
+if num>=18:
+print("if block statment executed")
+print("out of if block statements")
+
+num = float(input("Enter a number: "))
+if num > 0:
+print("The number is positive.")
+elif num < 0: 
+print("The number is negative.")
+else:
+print("The number is zero.")
+
+num=int(input("Enter any no: "))
+if num>=18:
+print("if block statement executed")
+else:
+print("else block statement executed")
