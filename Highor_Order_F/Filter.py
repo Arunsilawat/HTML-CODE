@@ -14,3 +14,10 @@ def vovel(n):
     if n not in my_vovel:
         return True
 print(list(filter(vovel,my_str)))
+
+#---------------------------------------------------
+my_list=[12,34,44,56,76,22,3,12,22]
+def new(n):
+    if n>=30:
+        return True
+print(list(filter(new,my_list)))

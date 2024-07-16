@@ -30,3 +30,7 @@ print(s4)
 
 s5=s2.difference(s1)  #diffrence
 print(s5)
+
+x={10,20,30,40}
+y={30,40,50,60}
+print(x.union(y))
