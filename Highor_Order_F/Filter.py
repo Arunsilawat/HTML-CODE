@@ -21,3 +21,16 @@ def new(n):
     if n>=30:
         return True
 print(list(filter(new,my_list)))
+
+#-----------even ------------------
+my_list=[12,34,44,56,76,22,3,12,22]
+def new(n):
+    if n%2==0:
+        return True
+print(list(filter(new,my_list)))
+#----------------------------odd ------------
+my_list=[12,34,44,56,76,22,3,12,22]
+def new(n):
+    if n%2!=0:
+        return True
+print(list(filter(new,my_list)))
