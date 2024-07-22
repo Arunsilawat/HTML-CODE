@@ -1,2 +1,3 @@
-Hello This is Arun Silawat
- I am from Bhopal
+Hello, This is Arun Silawat
+ I am from Bhopal, I want to become a web developer
+ currently i am pursing python full Stack couse 

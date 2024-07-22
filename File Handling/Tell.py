@@ -1,0 +1,11 @@
+f=open('n1.txt','rb')
+print(f.tell())
+print(f.read(6))
+print(f.tell())
+# print(f.read(5))
+print(f.seek(5,1))  #seek curser ko ange karne 0->start se,1->current,2->last
+print(f.tell())
+print(f.read(10))
+print(f.tell())
+f.seek(-6,2)
+print(f.read())
