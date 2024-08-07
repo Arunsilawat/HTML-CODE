@@ -23,43 +23,40 @@
 # print(obj.city,obj.display())
 
 #------------------multi lavel------------------------
-# class P:
-#     city="Bhopal"
-#     def display(self):
-#         print("This is from Display")
-# class C(P):
-#     def show(self):
-#         print("This is from Show")
-#         print("City :",P.city)
-# class C1(C):
-#     city1=P.city
-#     def show1(self):
-#         (self.display())
-#         (self.show())
-# obj=C1()
-# print(obj.city1)
-# obj.show1()
-# obj.show()
-# obj.display()
-  #MRO-->method resual
+class P:
+    city="Bhopal"
+    def display(self):
+        print("This is from Display")
+class C(P):
+    def show(self):
+        print("This is from Show")
+        print("City :",P.city)
+class C1(C):
+    city1=P.city
+    def show1(self):
+        (self.display())
+        (self.show())
+obj=C1()
+print(obj.city1)
+obj.show1()
+obj.show()
+obj.display()
+#   MRO-->method resual
 
   #--------------multiple inherri..-----------
 
 class A:
     city="Bhopal"
     def display(self):
-        print("This is from Display")
+        print("This is from Display A")
 class B():
-    def show(self):
-        print("This is from Show")
-        print("City :",A.city)
-class C(A,B):
+    def display(self):
+        print("This is from Display B")   
+class C(B,A):     #L----R  find karega function ko
     city1=A.city
     def show1(self):
         (self.display())
-        (self.show())
+        (self.display())
 obj=C()
-print(obj.city1)
 obj.show1()
-obj.show()
-obj.display()
+ 
