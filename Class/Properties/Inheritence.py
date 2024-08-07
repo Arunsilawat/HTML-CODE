@@ -23,20 +23,42 @@
 # print(obj.city,obj.display())
 
 #------------------multi lavel------------------------
-class P:
+# class P:
+#     city="Bhopal"
+#     def display(self):
+#         print("This is from Display")
+# class C(P):
+#     def show(self):
+#         print("This is from Show")
+#         print("City :",P.city)
+# class C1(C):
+#     city1=P.city
+#     def show1(self):
+#         (self.display())
+#         (self.show())
+# obj=C1()
+# print(obj.city1)
+# obj.show1()
+# obj.show()
+# obj.display()
+  #MRO-->method resual
+
+  #--------------multiple inherri..-----------
+
+class A:
     city="Bhopal"
     def display(self):
         print("This is from Display")
-class C(P):
+class B():
     def show(self):
         print("This is from Show")
-        print("City :",P.city)
-class C1(C):
-    city1=P.city
+        print("City :",A.city)
+class C(A,B):
+    city1=A.city
     def show1(self):
         (self.display())
         (self.show())
-obj=C1()
+obj=C()
 print(obj.city1)
 obj.show1()
 obj.show()
