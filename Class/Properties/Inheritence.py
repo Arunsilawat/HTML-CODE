@@ -45,18 +45,5 @@ obj.display()
 
   #--------------multiple inherri..-----------
 
-class A:
-    city="Bhopal"
-    def display(self):
-        print("This is from Display A")
-class B():
-    def display(self):
-        print("This is from Display B")   
-class C(B,A):     #L----R  find karega function ko
-    city1=A.city
-    def show1(self):
-        (self.display())
-        (self.display())
-obj=C()
-obj.show1()
+
  
