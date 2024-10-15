@@ -1,39 +1,27 @@
-n=int(input("row :"))
-for i in range(1,n+1):
-    print("* "*i)
-
-n=int(input("row :"))
-for i in range(1,n+1):
-    print(" "*(n-i),"*"*i)
-
-n=int(input("row :"))
-for i in range(1,n+1):
-    print(" "*(n-i),"*"*(2*i-1))
-
-n=int(input("row :"))
-for i in range(1,n+1):
-    print(" "*(n-i),"* "*( i))
-
-n=int(input("row :"))
-for i in range(n,0,-1):
-    print(" "*(n-i),"*"*(i))
-
-n=int(input("row :"))
-for i in range(n,0,-1):
-    print(" "*(n-i)," *"*(i))
-
-n=int(input("row :"))
-for i in range(n,0,-1):
-    print("*"*(i))
-
-n=int(input("row :"))
-for i in range(1,n+1):
-    print(" "*(n-i),"* "*i)
-
-for i in range(n,0,-1):
-    print(" "*(n-i),"* "*i)
-
-
-n=int(input("row :"))
-for i in range(1,n+1):
-    print(" "*(n-i),"* "*i)
+# def add(x,y):
+#     return x+y
+# def sub(x,y):
+#     return x-y
+# def div(x,y):
+#     return x/y
+# def multi(x,y):
+#     return x*y
+# while True:
+#     print('Select You Choice')
+#     n=int(input("add-1,sub-2,div-3,multi-4,exit-5 : "))
+#     p=int(input("Enter First num : "))
+#     q=int(input("Enter Second num : "))
+#     if n==1:
+#         print(p,"+",q,"= ",add(p,q))
+#     elif n==2:
+#         print(p,"-",q,"= ",sub(p,q))
+#     elif n==3:
+#         print(p,"/",q,"= ",div(p,q))
+#     elif n==4:
+#         print(p,"*",q,"= ",multi(p,q))
+#     elif n==5:
+#         break
+#     else:
+#         print("Invalid Number")
+# -------------------------------------------------------------------------------------------------------------
+ 
