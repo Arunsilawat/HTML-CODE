@@ -43,3 +43,13 @@
 # i=int(input("Enter Number : "))
 # print("Fact of num ",i,"= ",fact(i))
 # 
+---------------------------------------------
+# def even_odd(num):
+#     if num%2==0:
+#         print("Even Num")
+#     else:
+#         print("Odd num")
+# x=int(input("Enter Num :"))
+# even_odd(x)
+# ---------------------------------------------
+# 
