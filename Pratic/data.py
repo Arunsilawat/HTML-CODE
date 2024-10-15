@@ -33,3 +33,13 @@
 # sum(10)
 # sum(20,10,20)
 #
+ ------------------------------------------------
+# def fact(num):
+#     result=1
+#     while num>1:
+#         result=result*num
+#         num=num-1
+#     return result
+# i=int(input("Enter Number : "))
+# print("Fact of num ",i,"= ",fact(i))
+# 
